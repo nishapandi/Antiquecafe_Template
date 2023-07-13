@@ -1,0 +1,587 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-radius: border-box;
+}
+
+.cafe1{
+    background-image: url(/2126_antique_cafe/img/antique-cafe-bg-01.jpg);
+    background-size: 100vh;
+    width: 100%;
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-blend-mode: darken;
+    background-attachment: fixed;
+}
+nav{
+    height: 60px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.404);
+}
+nav>ul{
+    float: right;
+   
+}
+nav>ul>li{
+    display: inline-block;
+    transition: all;
+    margin: 0 35px;
+    margin-top: 14px;
+}
+nav>ul>li>a{
+    color: orange;
+    text-decoration: none;
+    font-size: 25px;
+    transition: all;
+}
+a:hover,a:active{
+    
+    text-decoration: underline;
+    transition: 0.3s;
+}
+.checkbutton{
+    color: orange;
+    width: 20px;
+    height: 30px;
+    padding: 5px;
+    float: right;
+    margin-right: 15px;
+    display: none;
+    padding-top: 30px;
+    
+
+}
+#check{
+    display: none;
+}
+@media screen and (max-width:950px)
+{
+    nav>ul>li>a{
+        font-size: 15px;
+    }
+    
+    ul{
+        display: none;
+    }
+    
+}
+
+
+.t1{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+.t2{
+    color: goldenrod;
+    font-size: 18px;
+}
+.c1{
+    color: whitesmoke;
+    border: 3px solid black  ; 
+    width: 330px; 
+    text-align: center;
+    padding: 40px;
+    background-color:rgba(0, 0, 0, 0.541);
+    border: transparent;
+    margin: 80px auto 10px auto;
+}
+.c2{
+    color: whitesmoke;
+    border: 3px solid black  ; 
+    width: 330px; 
+    text-align: center;
+    padding: 40px;
+    background-color:rgba(0, 0, 0, 0.541);
+    border: transparent;
+    margin: 30px auto 10px auto;
+    
+}
+.c3{
+    color: whitesmoke;
+    border: 3px solid black  ; 
+    width: 200px; 
+    text-align: center;
+    padding: 40px;
+    background-color:rgba(0, 0, 0, 0.541);
+    border: transparent;
+    margin: 30px auto 20px auto;
+    color: goldenrod;
+    border-radius: 5px;
+}
+.cafe2{
+    background-image: url(/2126_antique_cafe/img/antique-cafe-bg-02.jpg);
+    background-size: 100vh;
+    width: 100%;
+    height: 270vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-blend-mode: darken;
+    padding-top: 130px;
+}
+.c4{
+    border: 2px solid white;
+    background-color: white;
+    width: 300px;
+    border-radius: 5px;
+    margin: 0px auto 20px auto;
+}
+.ca1{
+    border: 2px solid #544639;
+    border: transparent;
+    background-color: #544639;
+    width: 400px;
+    height: 700px;
+    border-radius: 9px;
+    
+    margin: 20px auto 10px auto;
+    
+    
+}
+.s1{
+    margin: 30px 20px 20px 20px;
+}
+.n1{
+    float: right;
+    margin-right: 90px;
+    margin-top: 60px;
+    color: orange;
+}
+.n2{
+    float:right;
+    margin-top: 85px;
+    margin-right: -55px;
+    color: white;
+}
+.n3{
+    float: right;
+    margin-right: 90px;
+    margin-top: 60px; 
+    color: orange; 
+}
+.n4{
+    float:right;
+    margin-top: 85px;
+    margin-right: -130px;
+    color: white;
+ 
+}
+.n5{
+    float: right;
+    margin-right: 90px;
+    margin-top: 60px;
+    color: orange;  
+}
+.n6{
+    float:right;
+    margin-top: 85px;
+    margin-right: -60px;
+    color: white; 
+}
+.n7{
+    float: right;
+    margin-right: 90px;
+    margin-top: 60px;
+    color: orange;   
+}
+.n8{
+    float:right;
+    margin-top: -70px;
+    margin-right: 20px;
+    color: white; 
+}
+.ca2{
+    border: 2px solid #544639;
+    border: transparent;
+    background-color: #544639;
+    width: 400px;
+    height: 700px;
+    border-radius: 9px;
+    margin: 20px auto 10px auto;
+
+
+}
+.n9{
+    padding-top: 40px;
+    margin-left: -120px;
+    color: orange;
+
+}
+.n10{
+    margin-bottom:60px ;
+    margin-left: -80px;
+    color: white;
+}
+.n11{
+    margin-top:100px ;
+    margin-left: -120px;
+    color: orange;
+}
+.n12{
+    margin-left: -100px;
+    color: white;
+}
+.n13{
+    margin-top:90px ;
+    margin-left: -120px;
+    color: orange;
+}
+.n14{
+    margin-left:-80px;
+    margin-top: 10px;
+    color: white;
+}
+.n15{
+    margin-top: 100px;
+    margin-left: -120px;
+    color: orange;
+}
+.n16{
+    margin-left:-150px ;
+    color: white;
+}
+.cafe3{
+    border: 1px solid black;
+    border: transparent;
+    height: 100vh;
+    background-image:url(/2126_antique_cafe/img/antique-cafe-bg-03.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 150px;
+    
+    
+}
+.t14{
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.288);
+    width: 50%;
+    text-align:justify;
+    margin: 0px auto 30px auto;
+    border: transparent;
+    border-radius: 5px;
+
+}
+ 
+
+.ic{
+    
+    color: white;
+    font-size: 30px;
+    border: 2px solid darkcyan;
+    width: 260px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: darkcyan;
+    margin: 0px auto 30px auto;
+}
+.cafe4{
+    border: 1px solid black;
+    border: transparent;
+    height: 170vh;
+    background-image:url(/2126_antique_cafe/img/antique-cafe-bg-04.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 100px;
+    
+}
+.c8{
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.61);
+    margin: 0px auto 30px auto;
+    width: 50%;
+    height: 390px;
+    text-align:justify;
+    border-radius: 9px;
+}
+.ic1{
+    color: white;
+    font-size: 30px;
+    border: 2px solid darkcyan;
+    width: 30%;
+    border-radius: 5px;
+    text-align: center;
+    background-color: darkcyan;
+    margin: 0px auto 80px auto;
+    
+}
+.c9{
+    border: 2px solid black;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.658);
+    height: 400px;
+    border-radius: 9px;
+    margin: 70px auto 40px auto;
+}
+.t21>::placeholder{
+    color: rgba(255, 255, 255, 0.651);
+    font-size: 14px;
+}
+.t22>::placeholder{
+    color: rgba(255, 255, 255, 0.651);
+    font-size: 14px;
+     
+}
+.t23>::placeholder{
+    color: rgba(255, 255, 255, 0.651);
+    font-size: 14px;
+    position: relative;
+    top: -55px;
+     
+}
+.t24>a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px ;
+    float: right;
+    margin-right: 44px;
+
+}
+.t24>a:hover{
+    color: goldenrod;
+}
+.c10{
+    font-size: 20px;
+    
+    font-weight: bolder;
+}
+.t25{
+    color:white;
+    margin-left: 30px;
+    margin-top: 90px;
+}
+.t26{
+    color: white;
+    float: right;
+    margin-top: -25px;
+    margin-right: 40px;
+}
+
+@media screen and (max-width:950px)
+{
+    nav>ul>li>a{
+        font-size: 15px;
+    }
+    
+    ul{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width:890px) 
+{
+    .checkbutton{
+        display: block;
+        
+    }
+    ul{
+        position: fixed;
+        text-align: center;
+
+    }
+    nav>ul{
+        background-color: none;
+    }
+    nav>ul>li{
+        display: block;
+        margin: 30px 0;
+        line-height: 0px;
+        margin-left: 540px;
+
+    }
+    nav>ul>li>a{
+        font-size: 20px;
+    }
+    #check:checked~ul{
+        display: block;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    .c8{
+        border: 2px solid white;
+        background-color: rgba(255, 255, 255, 0.61);
+        margin: 0px auto 30px auto;
+        width: 350px;
+        height: 450px;
+        text-align:justify;
+        border-radius: 9px;
+    }
+    .ic1{
+        color: white;
+        font-size: 30px;
+        border: 2px solid darkcyan;
+        width: 200px;
+        border-radius: 5px;
+        text-align: center;
+        background-color: darkcyan;
+        margin: 10px auto 10px auto;
+        
+    }
+    .c9{
+        border: 2px solid black;
+        width: 350px;
+        background-color: rgba(0, 0, 0, 0.658);
+        height: 400px;
+        border-radius: 9px;
+        margin: 40px auto 20px auto;
+    }
+    .t25{
+        color: white;
+        margin-left: 30px;
+        margin-top: -15px;
+    }
+    .t26{
+        color: white;
+        float: right;
+        margin-top: 10px;
+        margin-right: 40px;
+    }
+    
+    
+}
+@media screen and (max-width:550px) 
+{
+    .checkbutton{
+        display: block;
+        align-items: center;
+    }
+    ul{
+        position: fixed;
+        text-align: center;
+
+    }
+    nav>ul>li{
+        display: block;
+        margin: 30px 0;
+        line-height: 2px;
+        margin-left: 250px;
+
+    }
+    nav>ul>li>a{
+        font-size: 23px;
+    }
+    #check:checked~ul{
+        display: block;
+        top: 0;
+        left: 120px;
+        width: 50%;
+    }
+    .c1{
+        color: whitesmoke;
+        border: 3px solid black  ; 
+        width: 330px; 
+        text-align: center;
+        padding: 40px;
+        background-color:rgba(0, 0, 0, 0.541);
+        border: transparent;
+        margin: 60px auto 10px auto;
+    }
+    .c2{
+        color: whitesmoke;
+        border: 3px solid black  ; 
+        width: 330px; 
+        text-align: center;
+        padding: 40px;
+        background-color:rgba(0, 0, 0, 0.541);
+        border: transparent;
+        margin: 30px auto 10px auto;
+        
+    }
+    .c3{
+        color: whitesmoke;
+        border: 3px solid black  ; 
+        width: 200px; 
+        text-align: center;
+        padding: 40px;
+        background-color:rgba(0, 0, 0, 0.541);
+        border: transparent;
+        margin: 30px auto 20px auto;
+        color: goldenrod;
+        border-radius: 5px;
+    }
+    .t14{
+        border: 2px solid white;
+        background-color: rgba(255, 255, 255, 0.288);
+        width: 300px;
+        height: 400px;
+        text-align:justify;
+        margin: 0px auto 30px auto;
+        border: transparent;
+        border-radius: 5px;
+    
+    }
+     
+    
+    .ic{
+        
+        color: white;
+        font-size: 30px;
+        border: 2px solid darkcyan;
+        width: 260px;
+        border-radius: 5px;
+        text-align: center;
+        background-color: darkcyan;
+        margin: 0px auto 30px auto;
+    }
+    .c8{
+        border: 2px solid white;
+        background-color: rgba(255, 255, 255, 0.61);
+        margin: 0px auto 30px auto;
+        width: 350px;
+        height: 450px;
+        text-align:justify;
+        border-radius: 9px;
+    }
+    .ic1{
+        color: white;
+        font-size: 30px;
+        border: 2px solid darkcyan;
+        width: 200px;
+        border-radius: 5px;
+        text-align: center;
+        background-color: darkcyan;
+        margin: -20px auto 10px auto;
+        
+    }
+    .c9{
+        border: 2px solid black;
+        width: 350px;
+        background-color: rgba(0, 0, 0, 0.658);
+        height: 400px;
+        border-radius: 9px;
+        margin: 40px auto 20px auto;
+    }
+    .c10{
+        font-size: 18px;
+       
+        
+    }
+    .t25{
+        color: white;
+        margin-left: 30px;
+        margin-top: 15px;
+    }
+    .t26{
+        color: white;
+        float: right;
+        margin-top: -5px;
+        margin-right: 40px;
+    }
+    .c10{
+        font-size: 10px;
+        
+        font-weight: bolder;
+    }
+    
+    
+
+
+}
+
+
+
+
